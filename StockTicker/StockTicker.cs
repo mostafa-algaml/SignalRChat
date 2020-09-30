@@ -16,6 +16,7 @@ namespace StockTicker
 
         private readonly object _updateStockPricesLock = new object();
 
+
         //stock can go up or down by a percentage of this factor on each change
         private readonly double _rangePercent = .002;
 

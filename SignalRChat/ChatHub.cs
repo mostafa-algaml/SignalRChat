@@ -1,6 +1,4 @@
-﻿using System;
-using System.Web;
-using Microsoft.AspNet.SignalR;
+﻿using Microsoft.AspNet.SignalR;
 namespace SignalRChat
 {
     public class ChatHub : Hub
